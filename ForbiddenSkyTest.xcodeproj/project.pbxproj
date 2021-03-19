@@ -15,6 +15,7 @@
 		28169FFE260505BF00C0E439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28169FFC260505BF00C0E439 /* LaunchScreen.storyboard */; };
 		2816A009260505BF00C0E439 /* ForbiddenSkyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2816A008260505BF00C0E439 /* ForbiddenSkyTestTests.swift */; };
 		2816A014260505BF00C0E439 /* ForbiddenSkyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2816A013260505BF00C0E439 /* ForbiddenSkyTestUITests.swift */; };
+		2816A025260505D400C0E439 /* SampleStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2816A024260505D400C0E439 /* SampleStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2816A00F260505BF00C0E439 /* ForbiddenSkyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForbiddenSkyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2816A013260505BF00C0E439 /* ForbiddenSkyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForbiddenSkyTestUITests.swift; sourceTree = "<group>"; };
 		2816A015260505BF00C0E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2816A024260505D400C0E439 /* SampleStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		28169FE5260505BC00C0E439 = {
 			isa = PBXGroup;
 			children = (
+				2816A024260505D400C0E439 /* SampleStruct.swift */,
 				28169FF0260505BC00C0E439 /* ForbiddenSkyTest */,
 				2816A007260505BF00C0E439 /* ForbiddenSkyTestTests */,
 				2816A012260505BF00C0E439 /* ForbiddenSkyTestUITests */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2816A025260505D400C0E439 /* SampleStruct.swift in Sources */,
 				28169FF6260505BC00C0E439 /* ViewController.swift in Sources */,
 				28169FF2260505BC00C0E439 /* AppDelegate.swift in Sources */,
 				28169FF4260505BC00C0E439 /* SceneDelegate.swift in Sources */,
